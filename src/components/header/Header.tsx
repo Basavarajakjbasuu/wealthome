@@ -102,6 +102,7 @@ const Header = () => {
 
           {toggleNavbar ? (
             <span
+              ref={navbarRef}
               className="material-symbols-rounded close"
               aria-hidden="true"
             >
