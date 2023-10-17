@@ -220,19 +220,19 @@ body {
 .title-large {
   font-size: var(--fs-title-large);
   line-height: var(--lh-title-large);
-  font-weight: var(--weight-semibold);
+  font-weight: var(--weight-semiBold);
 }
 
 .title-medium {
   font-size: var(--fs-title-medium);
   line-height: var(--lh-title-medium);
-  font-weight: var(--weight-semibold);
+  font-weight: var(--weight-semiBold);
 }
 
 .title-small {
   font-size: var(--fs-title-small);
   line-height: var(--lh-title-small);
-  font-weight: var(--weight-semibold);
+  font-weight: var(--weight-semiBold);
 }
 
 .body-large {
@@ -470,53 +470,6 @@ body {
   gap: 4px;
   color: var(--neutral-20);
 }
-
-/*-----------------------------------*\
-  #HERO
-\*-----------------------------------*/
-
-
-
-
-
-/*-----------------------------------*\
-  #PROPERTY
-\*-----------------------------------*/
-
-
-
-
-
-/*-----------------------------------*\
-  #FEATURE
-\*-----------------------------------*/
-
-
-
-
-
-/*-----------------------------------*\
-  #VIDEO
-\*-----------------------------------*/
-
-
-
-
-
-/*-----------------------------------*\
-  #STORY
-\*-----------------------------------*/
-
-
-
-
-
-/*-----------------------------------*\
-  #FOOTER
-\*-----------------------------------*/
-
-
-
 
 
 /*-----------------------------------*\

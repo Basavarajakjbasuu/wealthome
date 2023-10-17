@@ -221,3 +221,18 @@ export const storyList = [
     name: 'Marci Senter'
   },
 ]
+
+export const supportLink = [
+  {
+    name: 'About us',
+  },
+  {
+    name: 'Contact us',
+  },
+  {
+    name: 'Privacy Policy',
+  },
+  {
+    name: 'Terms & Conditions',
+  },
+]
