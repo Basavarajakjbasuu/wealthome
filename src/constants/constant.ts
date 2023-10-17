@@ -144,3 +144,80 @@ export const featureSections = [
   },
 
 ]
+
+import avatar1 from '../assets/avatar-1.jpg';
+import avatar2 from '../assets/avatar-2.jpg';
+import avatar3 from '../assets/avatar-3.jpg';
+import avatar4 from '../assets/avatar-4.jpg';
+
+export const avatarList = [
+  {
+    key: 1,
+    image: avatar1
+  },
+  {
+    key: 2,
+    image: avatar2
+  },
+  {
+    key: 3,
+    image: avatar3
+  },
+  {
+    key: 4,
+    image: avatar4
+  },
+]
+
+import storyAvatar1 from '../assets/story-avatar-1.jpg';
+import storyAvatar2 from '../assets/story-avatar-2.jpg';
+import storyAvatar3 from '../assets/story-avatar-3.jpg';
+import storyAvatar4 from '../assets/story-avatar-4.jpg';
+import storyAvatar5 from '../assets/story-avatar-5.jpg';
+import storyAvatar6 from '../assets/story-avatar-6.jpg';
+
+import story1 from '../assets/story-1.jpg';
+import story2 from '../assets/story-2.jpg';
+import story3 from '../assets/story-3.jpg';
+import story4 from '../assets/story-4.jpg';
+import story5 from '../assets/story-5.jpg';
+import story6 from '../assets/story-6.jpg';
+
+export const storyList = [
+  {
+    key: 1,
+    image: storyAvatar1,
+    storyImage: story1,
+    name: 'Chris Traeger'
+  },
+  {
+    key: 2,
+    image: storyAvatar2,
+    storyImage: story2,
+    name:'Duke Silver'
+  },
+  {
+    key: 3,
+    image: storyAvatar3,
+    storyImage: story3,
+    name: 'Tsukasa Aoi'
+  },
+  {
+    key: 4,
+    image: storyAvatar4,
+    storyImage: story4,
+    name: 'Freida Varnes'
+  },
+  {
+    key: 5,
+    image: storyAvatar5,
+    storyImage: story5,
+    name: 'Carl Lorthner'
+  },
+  {
+    key: 6,
+    image: storyAvatar6,
+    storyImage: story6,
+    name: 'Marci Senter'
+  },
+]

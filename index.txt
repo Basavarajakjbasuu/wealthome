@@ -214,7 +214,6 @@ Our Customers
 We Help 1000+ Family Find Their True Home
 
 alt = John smith
-alt = Jane smith
 
 99+
 
