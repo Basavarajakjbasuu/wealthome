@@ -115,3 +115,32 @@ export const propertyListings = [
     isNew: false,
   },
 ];
+
+import banner1 from '../assets/feature-banner-1.jpg';
+import banner2 from '../assets/feature-banner-2.jpg';
+
+export const featureSections = [
+  {
+    image: banner1,
+    headline: 'We Specialize In Quality Home Renovations',
+    featureText: "Looking to renovate your home to reflect your style and personality? Look no further than our team of experts who specialize in quality home renovations to transform your space into a dream home you’ll love. From design to execution.",
+    featureList: {
+      list1: 'Smart Home',
+      list2: 'Beautiful Scene Around',
+      list3: 'Exceptional lifestyle',
+      list4: 'Complete 24/7 Security',
+    }
+  },
+  {
+    image: banner2,
+    headline: 'We Are Experts In Historic Home Renovations',
+    featureText: "Looking to renovate your home to reflect your style and personality? Look no further than our team of experts who specialize in quality home renovations to transform your space into a dream home you’ll love. From design to execution.",
+    featureList: {
+      list1: 'Smart Home',
+      list2: 'Beautiful Scene Around',
+      list3: 'Exceptional lifestyle',
+      list4: 'Complete 24/7 Security',
+    }
+  },
+
+]
