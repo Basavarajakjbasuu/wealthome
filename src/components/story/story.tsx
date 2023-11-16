@@ -5,7 +5,7 @@ import { avatarList, storyList } from '../../constants/constant';
 
 const Story = () => {
   return ( 
-    <section className="section story">
+    <section className="section story" id='about'>
       <div className="container">
 
         <div className="title-wrapper">

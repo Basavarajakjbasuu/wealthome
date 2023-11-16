@@ -40,23 +40,9 @@ const Header = () => {
     }
   }, []);
 
-  // when click outside of navbar it should close
+  // Get the current URL pathname
+  const currentPathname = window.location.hash;
 
-  // useEffect(() => {
-  //   const handleClickOutsideNavbar = (event: MouseEvent) => {
-  //     if (navbarRef.current && !navbarRef.current.contains(event.target as Node)) {
-  //       setToggleNavbar(false)
-  //     }
-  //   };
-
-  //   window.addEventListener('click', handleClickOutsideNavbar);
-
-  //   // cleanUp event
-  //    return () => {
-  //     window.removeEventListener('click', handleClickOutsideNavbar)
-  //   }
-  // },[])
-  
   return (
     <header className={`header ${activateHeader && 'active'}`}>
       <div className="container">
@@ -81,7 +67,7 @@ const Header = () => {
               <NavbarLink
                 key={link.name}
                 link={link.name}
-                active={false}
+                active={currentPathname.slice(1, 7)}
               />
             ))}
           </ul>

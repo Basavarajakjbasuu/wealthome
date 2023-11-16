@@ -6,12 +6,6 @@ export const navbarLink = [
     name: 'rent',
   },
   {
-    name: 'sell',
-  },
-  {
-    name: 'buy',
-  },
-  {
     name: 'about',
   },
 ]
@@ -124,6 +118,7 @@ export const featureSections = [
     image: banner1,
     headline: 'We Specialize In Quality Home Renovations',
     featureText: "Looking to renovate your home to reflect your style and personality? Look no further than our team of experts who specialize in quality home renovations to transform your space into a dream home you’ll love. From design to execution.",
+    featureOrder: 'feature-1',
     featureList: {
       list1: 'Smart Home',
       list2: 'Beautiful Scene Around',
@@ -135,6 +130,7 @@ export const featureSections = [
     image: banner2,
     headline: 'We Are Experts In Historic Home Renovations',
     featureText: "Looking to renovate your home to reflect your style and personality? Look no further than our team of experts who specialize in quality home renovations to transform your space into a dream home you’ll love. From design to execution.",
+    featureOrder: 'feature-2',
     featureList: {
       list1: 'Smart Home',
       list2: 'Beautiful Scene Around',

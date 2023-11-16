@@ -7,7 +7,7 @@ import PropertyCard from './PropertyCard';
 const Property = () => {
 
   return (
-    <section className='section property' aria-labelledby='property-label'>
+    <section id='rent' className='section property' aria-labelledby='property-label'>
       <div className="container">
 
         <div className="title-wrapper">
@@ -19,11 +19,12 @@ const Property = () => {
             Discover your dream home or sell your property with ease. Explore our listings for home rentals and property sales today!
             </p>
 
-            <button className="btn btn-outline">
-              <span className="label-medium">Explore more</span>
-            </button>
-
           </div>
+          
+          <button className="btn btn-outline">
+            <span className="label-medium">Explore more</span>
+          </button>
+
 
         </div>
 

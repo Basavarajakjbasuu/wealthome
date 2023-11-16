@@ -35,7 +35,7 @@ const Footer = () => {
 
             <ul className="footer-list">
 
-              {navbarLink.map((link) => (
+              {navbarLink.slice(0, 4).map((link) => (
                 <li key={link.name}>
                   <a href="#" className='body-medium footer-link'>{link.name}</a>
                 </li>
@@ -125,6 +125,7 @@ const Footer = () => {
 
         </div>
       </div>
+
     </footer>  
   );
 }

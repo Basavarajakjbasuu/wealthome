@@ -12,6 +12,7 @@ const Features = () => {
           headline={feature.headline}
           featureText={feature.featureText}
           featureList={feature.featureList}
+          featureOrder={feature.featureOrder}
         />
       ))}
     

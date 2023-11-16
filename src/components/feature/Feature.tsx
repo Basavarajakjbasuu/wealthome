@@ -4,6 +4,7 @@ interface FeatureProps {
   banner: string;
   headline: string;
   featureText: string;
+  featureOrder?: string;
   featureList?: {
     list1: string;
     list2: string;
@@ -16,14 +17,15 @@ const Feature = ({
   banner,
   headline,
   featureText,
-  featureList
+  featureList,
+  featureOrder
 }: FeatureProps) => {
 
   // Check if featureList is defined before using Object.values
   const featureListValues = featureList ? Object.values(featureList) : [];
 
   return ( 
-    <section className="section feature" aria-labelledby="feature-label">
+    <section className={`section feature ${featureOrder}`} aria-labelledby="feature-label">
       <div className="container">
 
         <figure className="feature-banner">

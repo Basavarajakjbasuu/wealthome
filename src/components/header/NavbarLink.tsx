@@ -2,15 +2,16 @@
 
 interface NavbarLinkProp {
   link: string;
-  active: boolean;
+  active: string;
 }
 const NavbarLink: React.FC<NavbarLinkProp> = ({
   link,
-  active
+  active,
 }) => {
+  const activeLink = link === active;
   return (
-    <li className={`navbar-link label-medium ${active ? 'active-link': ''}`}>
-      {link}
+    <li className={`navbar-link label-medium ${activeLink ? 'active': ''}`}>
+      <a href={`#${link}`}>{link}</a>
     </li>
   )
 }
